@@ -3,7 +3,7 @@ server {
      listen 443 ssl;
      server_name yourdomain www.yourdomain;
 
-     # Change the directory for error & access log if you want
+     # Change the directory for error & access logs if you want
      error_log /var/www/logs/error.log;
      access_log /var/www/logs/access.log;
     
