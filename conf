@@ -31,10 +31,7 @@ server {
      resolver 8.8.8.8;
      root /var/www/html;
      index index.html;
-
-     location '/.well-known/acme-challenge' {
-        root        /var/www/html;
-      }
+     error_page 404 /index.html;
 
      location / {
               if ($scheme = http) {
