@@ -29,11 +29,11 @@ server {
 
      # You can use your own resolver instead of the Google
      resolver 8.8.8.8;
-     root /var/www;
+     root /var/www/html;
      index index.html;
 
      location '/.well-known/acme-challenge' {
-        root        /var/www;
+        root        /var/www/html;
       }
 
      location / {
